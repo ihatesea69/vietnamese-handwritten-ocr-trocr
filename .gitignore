@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Local Codex / OMX state
+.omx/
+
+# Streamlit local config
+.streamlit/secrets.toml
+
+# Large local-only artifacts
+artifacts/models/best_model/
+artifacts/training/*
+!artifacts/training/README.md
+
+# Non-repo local files
+local/admin/*
+!local/admin/README.md
+local/archives/*
+!local/archives/README.md
+
+# Generic archives
+*.rar
