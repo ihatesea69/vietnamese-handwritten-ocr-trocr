@@ -46,7 +46,8 @@ The fine-tuned model is intentionally excluded from Git history because `model.s
 
 - Expected local unpack path: `artifacts/models/best_model/`
 - Optional runtime override: set `OCR_MODEL_DIR` to a different model directory
-- Model package URL: `TO_BE_PUBLISHED`
+- Model package URL: `https://github.com/ihatesea69/vietnamese-handwritten-ocr-trocr/releases/download/model-v1/best_model.zip`
+- Release page: `https://github.com/ihatesea69/vietnamese-handwritten-ocr-trocr/releases/tag/model-v1`
 
 After downloading the model package, extract it so that files such as `config.json`, `tokenizer.json`, and `model.safetensors` live directly under `artifacts/models/best_model/`.
 
